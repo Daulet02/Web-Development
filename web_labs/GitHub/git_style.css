@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma;
+}
+
+header {
+    background-color: #24292e;
+    height: 80px;
+}
+
+.header-bar {
+	color: white;
+	margin-right: 10px; 
+}
+
+.menu {
+	float: left;
+	margin-left: 10px; 
+	padding: 10px;
+    margin-top: 20px; 
+    word-spacing: 20px;
+}
+
+.right {
+	float: right;
+	border: 1px solid rgb(0,0,0,0);
+	padding: 10px;
+	margin-right: 10px;  
+	margin-top: 20px; 
+}
+
+#singup {
+	border: 1px solid white;
+	border-radius: 3px;
+	color: white;
+	padding: 10px;
+	float: right;
+	text-align: center;
+}
+
+#singup:hover {
+	color:grey;
+}
+
+#singin:hover{
+	color:grey;
+}
+
+.header-bar input[type="text"]{
+	background-color: grey;
+	border-radius: 3px;
+	width: 200px;
+	float: right;	
+}
+
+.main-info {
+	height: 720px;
+    width: 1520px;
+    background-image: url(github_background.png);
+}
+
+.left-info {
+	float: left;
+	color: white;
+	width: 350px;
+	margin: 200px;
+}
+
+.left-info p{
+    color:grey;
+    float: left;
+}
+
+.right-info {
+	float: right;
+	background-color: #fff;
+	width: 350px;
+	border: 1px solid #e6e6e6;
+	margin-top: 100px;
+	margin-right: 300px; 
+	padding: 20px
+}
+
+::placeholder{
+	color:#dadcde;
+}
+
+.right-info input[type="text"]{
+	border-radius: 5px;
+	width: 200px;
+	height: 30px;
+	margin: 10px;
+}
+
+.right-info input[type="password"]{
+	border-radius: 5px;
+	width: 200px;
+	height: 30px;
+	margin: 10px;
+
+}
+
+label{
+	font-weight: bold;
+	margin: 10px;
+	margin-bottom: 20px; 
+}
+
+button{
+	background-color: #2ebc4f;
+	color: white;
+	width: 300px;
+	height: 50px;
+	margin-left:10px;
+
+}
+
+.right-info p{
+	font-size: 12px;
+}
+
+.logo {
+	position: absolute;
+	margin: 25px;
+}

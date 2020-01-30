@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+}
+
+.right {
+    float: right;
+    height: 100px;
+    padding-right: 0px;
+    position: static;
+}
+
+.left {
+    float: left;
+    position: static;
+}
+
+#enter {
+    position: static;
+    padding-right: 250px;
+    padding: 25px;
+    padding-left: 0px;
+    margin-top: 30px;
+}
+
+#login {
+    text-align: left;
+    padding-right: 200px;
+    margin-bottom: 40px;
+}
+
